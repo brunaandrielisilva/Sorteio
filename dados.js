@@ -5,7 +5,7 @@ window.PESSOAS = [
   { n: "Lucca", d: [] },
   { n: "Fátima", d: [] },
   { n: "Bruna", d: [
-    { t: "Vestido / macaquinho", u: "https://vt.tiktok.com/ZS9PLBvAhjw3d-OOVxn/" },
+    { t: "Vestido / macaquinho", u: "https://vt.tiktok.com/ZS9PLBvAhjw3d-OOVxn/", o: "Tamanho M" },
     { t: "Jogo de copos", u: "https://vt.tiktok.com/ZS9PLS12meSPU-mse86/", o: "Pode ser um ou outro" }
   ] },
   { n: "Hyun", i: "namorado da Bruna", d: [] },
