@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amigo Secreto</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #7f1d1d;
+    --bg2: #450a0a;
+    --card: #fffaf3;
+    --ink: #2b1a12;
+    --muted: #7a6355;
+    --accent: #15803d;
+    --gold: #d4a017;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(circle at 50% 0%, var(--bg), var(--bg2));
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px 16px;
+  }
+  .card {
+    background: var(--card);
+    width: 100%; max-width: 420px;
+    border-radius: 20px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,.35);
+    border-top: 6px solid var(--gold);
+  }
+  .emoji { font-size: 56px; line-height: 1; }
+  h1 { font-size: 22px; margin: 12px 0 4px; }
+  p { color: var(--muted); margin: 8px 0; line-height: 1.45; }
+  button {
+    margin-top: 20px;
+    background: var(--accent); color: #fff;
+    border: 0; border-radius: 999px;
+    font-size: 17px; font-weight: 600;
+    padding: 14px 28px; cursor: pointer;
+    width: 100%;
+  }
+  button:active { transform: scale(.98); }
+  .nome {
+    font-size: 34px; font-weight: 800;
+    color: #b91c1c; margin: 16px 0 4px;
+    word-break: break-word;
+  }
+  .info { font-size: 15px; color: var(--muted); }
+  .aviso {
+    margin-top: 16px; padding: 12px 14px;
+    background: #fef3c7; border-radius: 12px;
+    color: #78350f; font-size: 15px; text-align: left;
+  }
+  .segredo { margin-top: 20px; font-size: 13px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div id="erro" class="hidden">
+    <div class="emoji">🤔</div>
+    <h1>Link inválido</h1>
+    <p>Esse link não está completo. Peça o seu link de novo para quem organizou o amigo secreto.</p>
+  </div>
+
+  <div id="intro" class="hidden">
+    <div class="emoji">🎁</div>
+    <h1>Olá, <span id="de"></span>!</h1>
+    <p>Seu amigo secreto já foi sorteado.<br>Veja sozinho(a), sem ninguém olhando 😉</p>
+    <button id="revelar" type="button">Revelar meu amigo secreto</button>
+  </div>
+
+  <div id="resultado" class="hidden">
+    <div class="emoji">🎄</div>
+    <p>Você tirou:</p>
+    <div class="nome" id="tirou"></div>
+    <div class="info" id="info"></div>
+    <div class="aviso hidden" id="aviso"></div>
+    <p class="segredo">🤫 Guarde segredo até o dia da troca!</p>
+  </div>
+</main>
+
+<script>
+  var KEY = "amigo-secreto-familia-2026";
+
+  function decode(token) {
+    var b64 = token.replace(/-/g, "+").replace(/_/g, "/");
+    while (b64.length % 4) b64 += "=";
+    var bin = atob(b64);
+    var bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) {
+      bytes[i] = bin.charCodeAt(i) ^ KEY.charCodeAt(i % KEY.length);
+    }
+    return JSON.parse(new TextDecoder().decode(bytes));
+  }
+
+  function show(id) { document.getElementById(id).classList.remove("hidden"); }
+  function hide(id) { document.getElementById(id).classList.add("hidden"); }
+
+  var data = null;
+  try {
+    var token = location.hash.slice(1);
+    if (token) data = decode(token);
+  } catch (e) { data = null; }
+
+  if (!data || !data.d || !data.t) {
+    show("erro");
+  } else {
+    document.getElementById("de").textContent = data.d;
+    show("intro");
+    document.getElementById("revelar").addEventListener("click", function () {
+      document.getElementById("tirou").textContent = data.t;
+      document.getElementById("info").textContent = data.i ? "(" + data.i + ")" : "";
+      if (data.a) {
+        var av = document.getElementById("aviso");
+        av.textContent = "📦 " + data.a;
+        show("aviso");
+      }
+      hide("intro");
+      show("resultado");
+    });
+  }
+</script>
+</body>
+</html>
