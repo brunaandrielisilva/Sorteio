@@ -21,7 +21,9 @@ window.PESSOAS = [
   { n: "Scharlo", d: [] },
   { n: "Rose", d: [] },
   { n: "Paulo", d: [] },
-  { n: "Maicon", d: [] },
+  { n: "Maicon", d: [
+  { t: "Relógio digital esportivo à prova d'água C-Shock (Mercado Livre)", u: "https://meli.la/1Nsho9w", o: "Correia vermelha" }
+] },
   { n: "Eloah", i: "criança", d: [] },
   { n: "Biti", i: "anfitriã", d: [] },
   { n: "Thay", d: [] },
