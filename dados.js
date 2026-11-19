@@ -29,7 +29,11 @@ window.PESSOAS = [
   { n: "Carol", i: "mora em Londres", d: [] },
   { n: "Sabrina", i: "mora em Londres", d: [] },
   { n: "Dilceu", i: "japa", d: [] },
-  { n: "Ayumi", i: "namorada do Bruno", d: [] },
+  { n: "Ayumi", i: "namorada do Bruno", d: [
+  { t: "Body splash Obsessed – WePink (200 ml)", u: "https://www.wepink.com.br/body-splash-obsessed-desodorante-colonia-200ml---wepink/p" },
+  { t: "Body splash One Touch Warm – WePink (200 ml)", u: "https://www.wepink.com.br/body-splash-one-touch-warm-desodorante-colonia-200ml---wepink/p" },
+  { t: "Ou algo da Hello Kitty das Lojas Renner", o: "Pode ser qualquer uma das opções" }
+] },
   { n: "Bruno", d: [] },
   { n: "Mario", d: [] },
   { n: "Bia", d: [] },
