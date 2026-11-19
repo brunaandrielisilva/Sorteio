@@ -15,7 +15,7 @@ window.PESSOAS = [
     { t: "Kit 3 mini bonecos heróis Vingadores (Shopee)", u: "https://br.shp.ee/FddyeSFc", o: "Capitão América, Homem-Aranha e Hulk · cerca de R$ 33,90" }
   ] },
   { n: "Kamile", d: [
-  { t: "Calça legging fitness feminina cintura alta com bolso (Shopee)", u: "https://br.shp.ee/Gh2n8LtU", o: "Preta, grossa, sem transparência · cerca de R$ 36,12" }
+  { t: "Calça legging fitness feminina cintura alta com bolso (Shopee)", u: "https://br.shp.ee/Gh2n8LtU", o: "Tamanho M · preta, grossa, sem transparência · cerca de R$ 36,12" }
 ] },
   { n: "Phellype", d: [] },
   { n: "Scharlo", d: [] },
