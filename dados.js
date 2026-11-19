@@ -27,7 +27,9 @@ window.PESSOAS = [
   { n: "Eloah", i: "criança", d: [] },
   { n: "Biti", i: "anfitriã", d: [] },
   { n: "Thay", d: [] },
-  { n: "Jean", i: "namorado da Thay", d: [] },
+  { n: "Jean", i: "namorado da Thay", d: [
+  { t: "Sandália masculina confortável antiderrapante (Shopee)", u: "https://br.shp.ee/DRjWje47", o: "Cor preta · número 39/40 · cerca de R$ 50,95" }
+] },
   { n: "Carol", i: "mora em Londres", d: [] },
   { n: "Sabrina", i: "mora em Londres", d: [] },
   { n: "Dilceu", i: "japa", d: [] },
