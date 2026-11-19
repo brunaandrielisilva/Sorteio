@@ -46,6 +46,12 @@
     width: 100%;
   }
   button:active { transform: scale(.98); }
+  a.botao {
+    display: block; margin-top: 20px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    border-radius: 999px; font-size: 16px; font-weight: 600;
+    padding: 13px 20px;
+  }
   .nome {
     font-size: 34px; font-weight: 800;
     color: #b91c1c; margin: 16px 0 4px;
@@ -82,6 +88,7 @@
     <div class="nome" id="tirou"></div>
     <div class="info" id="info"></div>
     <div class="aviso hidden" id="aviso"></div>
+    <a class="botao" id="verlista" href="lista.html">Ver o que ele(a) quer ganhar 🎁</a>
     <p class="segredo">🤫 Guarde segredo até o dia da troca!</p>
   </div>
 </main>
@@ -116,6 +123,7 @@
     show("intro");
     document.getElementById("revelar").addEventListener("click", function () {
       document.getElementById("tirou").textContent = data.t;
+      document.getElementById("verlista").href = "lista.html#" + encodeURIComponent(data.t);
       document.getElementById("info").textContent = data.i ? "(" + data.i + ")" : "";
       if (data.a) {
         var av = document.getElementById("aviso");
