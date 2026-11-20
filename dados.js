@@ -54,7 +54,9 @@ window.PESSOAS = [
 ] },
   { n: "Bruno", d: [] },
   { n: "Mario", d: [] },
-  { n: "Bia", d: [] },
+  { n: "Bia", d: [
+  { t: "Cuia para chimarrão de madeira selada (Shopee)", u: "https://s.shopee.com.br/1C6yRLGBo?share_channel_code=1", o: "Cerca de R$ 39,70" }
+] },
   { n: "Gabriele", i: "criança", d: [
   { t: "Boneca princesa 17 cm com conjunto completo (Shopee)", u: "https://s.shopee.com.br/1C6yK60Xj?share_channel_code=1" }
 ] }
