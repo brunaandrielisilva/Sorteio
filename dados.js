@@ -8,7 +8,9 @@ window.PESSOAS = [
     { t: "Vestido / macaquinho", u: "https://vt.tiktok.com/ZS9PLBvAhjw3d-OOVxn/", o: "Tamanho M · cor preta, azul-marinho ou off-white" },
     { t: "Jogo de copos", u: "https://vt.tiktok.com/ZS9PLS12meSPU-mse86/", o: "Pode ser um ou outro" }
   ] },
-  { n: "Hyun", i: "namorado da Bruna", d: [] },
+  { n: "Hyun", i: "namorado da Bruna", d: [
+  { t: "Pijama masculino de calor em malha premium (TikTok)", u: "https://vt.tiktok.com/ZS9P2ccWCU4kX-AAF6P/", o: "Tamanho M · cor cinza" }
+] },
   { n: "Thabattn", d: [] },
   { n: "Mari", i: "namorada do Lucca", d: [
   { t: "Óculos de sol oval feminino retrô – Siena Brown Turtle (TikTok)", u: "https://vt.tiktok.com/ZS9P2wWJndhnj-fHDrJ/" }
