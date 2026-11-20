@@ -10,7 +10,8 @@ window.PESSOAS = [
   ] },
   { n: "Hyun", i: "namorado da Bruna", d: [
   { t: "Pijama masculino de calor em malha premium (TikTok)", u: "https://vt.tiktok.com/ZS9P2ccWCU4kX-AAF6P/", o: "Tamanho M · cor cinza" },
-  { t: "Kit de ferramentas 46 peças – catraca reversível + soquetes (TikTok)", u: "https://vt.tiktok.com/ZS9PjJ1wnV2jP-Y2H5m/", o: "Pode ser um ou outro" }
+  { t: "Kit de ferramentas 46 peças – catraca reversível + soquetes (TikTok)", u: "https://vt.tiktok.com/ZS9PjJ1wnV2jP-Y2H5m/" },
+  { t: "Kit de ferramentas – 2ª opção (TikTok)", u: "https://vt.tiktok.com/ZS9PjJL5tsNFa-DfKyY/", o: "Pode ser qualquer uma das opções" }
 ] },
   { n: "Thabattn", d: [] },
   { n: "Mari", i: "namorada do Lucca", d: [
