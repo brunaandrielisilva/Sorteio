@@ -36,7 +36,7 @@ window.PESSOAS = [
   { n: "Sabrina", i: "mora em Londres", d: [] },
   { n: "Dilceu", i: "japa", d: [
   { t: "Kit de meias (TikTok)", u: "https://vt.tiktok.com/ZS9P2VqQgV3Y6-1UrIh/" },
-  { t: "Kit de cuecas (TikTok)", u: "https://vt.tiktok.com/ZS9P2VRxnsg2w-Kauxp/" }
+  { t: "Kit de cuecas (TikTok)", u: "https://vt.tiktok.com/ZS9P2Vgoe9FMQ-9MudC/" }
 ] },
   { n: "Ayumi", i: "namorada do Bruno", d: [
   { t: "Body splash Obsessed – WePink (200 ml)", u: "https://www.wepink.com.br/body-splash-obsessed-desodorante-colonia-200ml---wepink/p" },
