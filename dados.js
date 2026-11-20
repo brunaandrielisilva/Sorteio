@@ -34,7 +34,10 @@ window.PESSOAS = [
 ] },
   { n: "Eloah", i: "criança", d: [] },
   { n: "Biti", i: "anfitriã", d: [] },
-  { n: "Thay", d: [] },
+  { n: "Thay", d: [
+  { t: "Necessaire feminina grande de nylon com divisórias (TikTok)", u: "https://vt.tiktok.com/ZS9PjYtWVjbPj-GKYRv/", o: "Cor rosa · cerca de R$ 29,99" },
+  { t: "Kit Cadiveu shampoo Quartzo Shine 250 ml + 3 mini máscaras 30 ml (TikTok)", u: "https://vt.tiktok.com/ZS9PjL5t3jDn8-igR5Y/", o: "Cerca de R$ 48,55 · pode ser um ou outro" }
+] },
   { n: "Jean", i: "namorado da Thay", d: [
   { t: "Sandália masculina confortável antiderrapante (Shopee)", u: "https://br.shp.ee/DRjWje47", o: "Cor preta · número 39/40 · cerca de R$ 50,95" }
 ] },
