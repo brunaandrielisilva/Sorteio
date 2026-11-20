@@ -19,7 +19,9 @@ window.PESSOAS = [
 ] },
   { n: "Phellype", d: [] },
   { n: "Scharlo", d: [] },
-  { n: "Rose", d: [] },
+  { n: "Rose", d: [
+  { t: "Kit 2 bermudas ciclista fitness cintura alta com bolso (Shopee)", u: "https://br.shp.ee/xUWUeXWU", o: "1 rosa e 1 azul · tamanho M · cerca de R$ 49,90" }
+] },
   { n: "Paulo", d: [] },
   { n: "Maicon", d: [
   { t: "Relógio digital esportivo à prova d'água C-Shock (Mercado Livre)", u: "https://meli.la/1Nsho9w", o: "Correia vermelha" }
