@@ -35,7 +35,7 @@ window.PESSOAS = [
   { n: "Carol", i: "mora em Londres", d: [] },
   { n: "Sabrina", i: "mora em Londres", d: [] },
   { n: "Dilceu", i: "japa", d: [
-  { t: "Kit de meias (TikTok)", u: "https://vt.tiktok.com/ZS9P243WUtXAL-mJ7PW/" },
+  { t: "Kit de meias (TikTok)", u: "https://vt.tiktok.com/ZS9P2VqQgV3Y6-1UrIh/" },
   { t: "Kit de cuecas (TikTok)", u: "https://vt.tiktok.com/ZS9P2VRxnsg2w-Kauxp/" }
 ] },
   { n: "Ayumi", i: "namorada do Bruno", d: [
