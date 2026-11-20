@@ -17,7 +17,12 @@ window.PESSOAS = [
   { t: "Kit de ferramentas 46 peças – catraca reversível + soquetes (TikTok)", u: "https://vt.tiktok.com/ZS9PjJ1wnV2jP-Y2H5m/" },
   { t: "Kit de ferramentas – 2ª opção (TikTok)", u: "https://vt.tiktok.com/ZS9PjJL5tsNFa-DfKyY/", o: "Pode ser qualquer uma das opções" }
 ] },
-  { n: "Thabattn", d: [] },
+  { n: "Thabattn", d: [
+  { t: "Suporte de controle Yoshi, impresso em 3D (Shopee)", u: "https://br.shp.ee/eyG6ZwMY", o: "Cerca de R$ 49,90" },
+  { t: "Suporte de controle Pikachu, impresso em 3D (Shopee)", u: "https://br.shp.ee/Q4Yf6mVq", o: "Cerca de R$ 49,90" },
+  { t: "Camiseta \"Girls Will Be Girls\" bruxas (Shopee)", u: "https://br.shp.ee/EJ5Pxx4D", o: "Cor preta · tamanho GG · cerca de R$ 21,77" },
+  { t: "Camiseta Gatinho (Shopee)", u: "https://br.shp.ee/pZYaaCPn", o: "Cor preta · tamanho GG · pode ser qualquer uma das opções" }
+] },
   { n: "Mari", i: "namorada do Lucca", d: [
   { t: "Óculos de sol oval feminino retrô – Siena Brown Turtle (TikTok)", u: "https://vt.tiktok.com/ZS9P2wWJndhnj-fHDrJ/" }
 ] },
