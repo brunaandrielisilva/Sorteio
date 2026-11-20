@@ -1,7 +1,9 @@
 // Cada pedido: { t: "texto", u: "link (opcional)", o: "observação (opcional)" }
 window.PESSOAS = [
   { n: "Olga", d: [] },
-  { n: "Nilton", d: [] },
+  { n: "Nilton", d: [
+  { t: "Boné aba curva liso básico, ajustável (Mercado Livre)", u: "https://www.mercadolivre.com.br/bone-aba-curva-liso-basico-ajuste-unissex-masculino-baseball/up/MLBU4293701271", o: "Cor bege · cerca de R$ 25,90" }
+] },
   { n: "Lucca", d: [
   { t: "Camiseta essencial masculina slim, decote redondo, algodão – Malwee", u: "https://www.malwee.com.br/camiseta-essencial-masculina-slim-decote-redondo-em-algodao-100001503700004/p?idsku=77252", o: "Cor preta · tamanho M · cerca de R$ 49,99" }
 ] },
