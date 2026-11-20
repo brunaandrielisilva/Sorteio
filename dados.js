@@ -55,5 +55,7 @@ window.PESSOAS = [
   { n: "Bruno", d: [] },
   { n: "Mario", d: [] },
   { n: "Bia", d: [] },
-  { n: "Gabriele", i: "criança", d: [] }
+  { n: "Gabriele", i: "criança", d: [
+  { t: "Boneca princesa 17 cm com conjunto completo (Shopee)", u: "https://s.shopee.com.br/1C6yK60Xj?share_channel_code=1" }
+] }
 ];
