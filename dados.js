@@ -53,8 +53,12 @@ window.PESSOAS = [
   { n: "Jean", i: "namorado da Thay", d: [
   { t: "Sandália masculina confortável antiderrapante (Shopee)", u: "https://br.shp.ee/DRjWje47", o: "Cor preta · número 39/40 · cerca de R$ 50,95" }
 ] },
-  { n: "Carol", i: "mora em Londres", d: [] },
-  { n: "Sabrina", i: "mora em Londres", d: [] },
+  { n: "Carol", i: "mora em Londres", d: [
+    { t: "R$ 50 em dinheiro", o: "Como ela está em Londres, o presente é em dinheiro" }
+  ] },
+  { n: "Sabrina", i: "mora em Londres", d: [
+    { t: "R$ 50 em dinheiro", o: "Como ela está em Londres, o presente é em dinheiro" }
+  ] },
   { n: "Dilceu", i: "japa", d: [
   { t: "Kit de meias (TikTok)", u: "https://vt.tiktok.com/ZS9P2VqQgV3Y6-1UrIh/" },
   { t: "Kit de cuecas (TikTok)", u: "https://vt.tiktok.com/ZS9P2Vgoe9FMQ-9MudC/" }
