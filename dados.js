@@ -21,7 +21,8 @@ window.PESSOAS = [
   { t: "Suporte de controle Yoshi, impresso em 3D (Shopee)", u: "https://br.shp.ee/eyG6ZwMY", o: "Cerca de R$ 49,90" },
   { t: "Suporte de controle Pikachu, impresso em 3D (Shopee)", u: "https://br.shp.ee/Q4Yf6mVq", o: "Cerca de R$ 49,90" },
   { t: "Camiseta \"Girls Will Be Girls\" bruxas (Shopee)", u: "https://br.shp.ee/EJ5Pxx4D", o: "Cor preta · tamanho GG · cerca de R$ 21,77" },
-  { t: "Camiseta Gatinho (Shopee)", u: "https://br.shp.ee/pZYaaCPn", o: "Cor preta · tamanho GG · pode ser qualquer uma das opções" }
+  { t: "Camiseta Gatinho (Shopee)", u: "https://br.shp.ee/pZYaaCPn", o: "Cor preta · tamanho GG" },
+  { t: "Blusa feminina com estampa de planta e botões – SHEIN", u: "https://onelink.shein.com/61/68u8zf5mr2my?shc=2_RWCMEhdYsN3", o: "Tamanho M · pode ser qualquer uma das opções" }
 ] },
   { n: "Mari", i: "namorada do Lucca", d: [
   { t: "Óculos de sol oval feminino retrô – Siena Brown Turtle (TikTok)", u: "https://vt.tiktok.com/ZS9P2wWJndhnj-fHDrJ/" }
