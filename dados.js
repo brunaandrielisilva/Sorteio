@@ -1,6 +1,8 @@
 // Cada pedido: { t: "texto", u: "link (opcional)", o: "observação (opcional)" }
 window.PESSOAS = [
-  { n: "Olga", d: [] },
+  { n: "Olga", d: [
+  { t: "Blusa feminina dourada metálica, decote V e manga morcego – SHEIN", u: "https://onelink.shein.com/61/68u95a9xtnbn?shc=2_RWChLuJeLNd", o: "Tamanho M" }
+] },
   { n: "Nilton", d: [
   { t: "Boné aba curva liso básico, ajustável (Mercado Livre)", u: "https://www.mercadolivre.com.br/bone-aba-curva-liso-basico-ajuste-unissex-masculino-baseball/up/MLBU4293701271", o: "Cor bege · cerca de R$ 25,90" }
 ] },
