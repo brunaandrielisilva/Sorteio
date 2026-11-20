@@ -10,7 +10,9 @@ window.PESSOAS = [
   ] },
   { n: "Hyun", i: "namorado da Bruna", d: [] },
   { n: "Thabattn", d: [] },
-  { n: "Mari", i: "namorada do Lucca", d: [] },
+  { n: "Mari", i: "namorada do Lucca", d: [
+  { t: "Óculos de sol oval feminino retrô – Siena Brown Turtle (TikTok)", u: "https://vt.tiktok.com/ZS9P2wWJndhnj-fHDrJ/" }
+] },
   { n: "Hariel", i: "criança", d: [
     { t: "Kit 3 mini bonecos heróis Vingadores (Shopee)", u: "https://br.shp.ee/FddyeSFc", o: "Capitão América, Homem-Aranha e Hulk · cerca de R$ 33,90" }
   ] },
