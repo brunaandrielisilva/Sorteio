@@ -53,7 +53,9 @@ window.PESSOAS = [
   { t: "Ou algo da Hello Kitty das Lojas Renner", o: "Pode ser qualquer uma das opções" }
 ] },
   { n: "Bruno", d: [] },
-  { n: "Mario", d: [] },
+  { n: "Mario", d: [
+  { t: "Camiseta Corinthians Batimento Cardíaco, 100% algodão (Shopee)", u: "https://br.shp.ee/VqjrbQKE", o: "Cerca de R$ 25 a R$ 30" }
+] },
   { n: "Bia", d: [
   { t: "Cuia para chimarrão de madeira selada (Shopee)", u: "https://s.shopee.com.br/1C6yRLGBo?share_channel_code=1", o: "Cerca de R$ 39,70" }
 ] },
