@@ -53,7 +53,13 @@
     word-break: break-word;
   }
   a.item::after { content: " ↗"; font-weight: 400; }
-  .obs { display: block; color: var(--muted); font-size: 14px; }
+  .texto { font-weight: 700; color: var(--ink); }
+  .obs {
+    display: block; width: fit-content; margin-top: 5px;
+    color: #7c2d12; background: #fef3c7;
+    font-size: 14px; font-weight: 600;
+    padding: 3px 9px; border-radius: 8px;
+  }
   .vazio { color: var(--muted); font-style: italic; margin: 8px 0 0; font-size: 15px; }
   .nada { color: #fff; text-align: center; opacity: .85; }
 </style>
@@ -114,7 +120,10 @@
           a.textContent = item.t || "Ver presente";
           li.appendChild(a);
         } else {
-          li.appendChild(document.createTextNode(item.t));
+          var tx = document.createElement("span");
+          tx.className = "texto";
+          tx.textContent = item.t;
+          li.appendChild(tx);
         }
         if (item.o) {
           var o = document.createElement("span");
