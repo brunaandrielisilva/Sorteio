@@ -39,7 +39,9 @@ window.PESSOAS = [
   { t: "Calça legging fitness feminina cintura alta com bolso (Shopee)", u: "https://br.shp.ee/Gh2n8LtU", o: "Tamanho M · cor preta · grossa, sem transparência · cerca de R$ 36,12" }
 ] },
   { n: "Phellype", d: [] },
-  { n: "Scharlo", d: [] },
+  { n: "Scharlo", d: [
+    { t: "Kit 3 shorts suplex com bolso, feminino, academia (Shopee)", o: "Tamanho EXG (48-50) · cores azul-marinho, vinho e preto · cerca de R$ 49,90" }
+  ] },
   { n: "Rose", d: [
   { t: "Kit 2 bermudas ciclista fitness cintura alta com bolso (Shopee)", u: "https://br.shp.ee/xUWUeXWU", o: "Vem 2 bermudas no kit: 1 rosa e 1 azul · tamanho M · cerca de R$ 49,90 o kit" }
 ] },
