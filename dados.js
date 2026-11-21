@@ -11,9 +11,7 @@ window.PESSOAS = [
   { n: "Lucca", d: [
   { t: "Camiseta essencial masculina slim, decote redondo, algodão – Malwee", u: "https://www.malwee.com.br/camiseta-essencial-masculina-slim-decote-redondo-em-algodao-100001503700004/p?idsku=77252", o: "Cor preta · tamanho M · cerca de R$ 49,99" }
 ] },
-  { n: "Fátima", d: [
-    { t: "Megamania" }
-  ] },
+  { n: "Fátima", d: [] },
   { n: "Bruna", d: [
     { t: "Vestido / macaquinho", u: "https://vt.tiktok.com/ZS9PLBvAhjw3d-OOVxn/", o: "Tamanho M · cor preta, azul-marinho ou off-white" },
     { t: "Jogo de copos", u: "https://vt.tiktok.com/ZS9PLS12meSPU-mse86/", o: "Pode ser um ou outro" }
