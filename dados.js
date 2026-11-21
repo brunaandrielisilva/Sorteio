@@ -47,7 +47,9 @@ window.PESSOAS = [
   { n: "Maicon", d: [
   { t: "Relógio digital esportivo à prova d'água C-Shock (Mercado Livre)", u: "https://meli.la/1Nsho9w", o: "Correia vermelha" }
 ] },
-  { n: "Eloah", i: "criança", d: [] },
+  { n: "Eloah", i: "criança", d: [
+    { t: "Sylveon Chibi Pokémon, impressão 3D (Shopee)", u: "https://br.shp.ee/fhP5deuo", o: "Cerca de R$ 49,90" }
+  ] },
   { n: "Biti", i: "anfitriã", d: [
     { t: "Chinelo (Shopee)", u: "https://br.shp.ee/rrCsnbgF", o: "Número 33/34" },
     { t: "Bermuda / short (Shopee)", u: "https://s.shopee.com.br/5LDdh8zFLT", o: "Número 46 · cor preta ou bordô · pode ser um ou outro" }
