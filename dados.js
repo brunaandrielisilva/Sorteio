@@ -46,7 +46,10 @@ window.PESSOAS = [
   { t: "Relógio digital esportivo à prova d'água C-Shock (Mercado Livre)", u: "https://meli.la/1Nsho9w", o: "Correia vermelha" }
 ] },
   { n: "Eloah", i: "criança", d: [] },
-  { n: "Biti", i: "anfitriã", d: [] },
+  { n: "Biti", i: "anfitriã", d: [
+    { t: "Chinelo (Shopee)", u: "https://br.shp.ee/rrCsnbgF", o: "Número 33/34" },
+    { t: "Bermuda / short (Shopee)", u: "https://s.shopee.com.br/5LDdh8zFLT", o: "Número 46 · cor preta ou bordô · pode ser um ou outro" }
+  ] },
   { n: "Thay", d: [
   { t: "Necessaire feminina grande de nylon com divisórias (TikTok)", u: "https://vt.tiktok.com/ZS9PjYtWVjbPj-GKYRv/", o: "Cor rosa · cerca de R$ 29,99" },
   { t: "Kit Cadiveu shampoo Quartzo Shine 250 ml + 3 mini máscaras 30 ml (TikTok)", u: "https://vt.tiktok.com/ZS9PjL5t3jDn8-igR5Y/", o: "Cerca de R$ 48,55 · pode ser um ou outro" }
