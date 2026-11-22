@@ -80,7 +80,9 @@ window.PESSOAS = [
   { t: "Body splash One Touch Warm – WePink (200 ml)", u: "https://www.wepink.com.br/body-splash-one-touch-warm-desodorante-colonia-200ml---wepink/p" },
   { t: "Ou algo da Hello Kitty das Lojas Renner", o: "Pode ser qualquer uma das opções" }
 ] },
-  { n: "Bruno", d: [] },
+  { n: "Bruno", d: [
+    { t: "Kit 5 camisetas dry fit masculinas, treino/academia/corrida (Shopee)", u: "https://shopee.com.br/Kit-5-Camisetas-Dry-Fit-Masculina-Casual-Treino-Academia-Esportes-Exerc%C3%ADcios-Corrida-i.942279253.48269683180?extraParams=%7B%22display_model_id%22%3A331644196795%2C%22model_selection_logic%22%3A3%7D&image_ids=br-11134207-820lm-mul48r5k4ykj40", o: "Tamanho G · cerca de R$ 49,90" }
+  ] },
   { n: "Mario", d: [
   { t: "Camiseta Corinthians Batimento Cardíaco, 100% algodão (Shopee)", u: "https://br.shp.ee/VqjrbQKE", o: "Cerca de R$ 25 a R$ 30" }
 ] },
