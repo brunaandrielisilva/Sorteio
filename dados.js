@@ -47,7 +47,9 @@ window.PESSOAS = [
   { n: "Rose", d: [
   { t: "Kit 2 bermudas ciclista fitness cintura alta com bolso (Shopee)", u: "https://br.shp.ee/xUWUeXWU", o: "Vem 2 bermudas no kit: 1 rosa e 1 azul · tamanho M · cerca de R$ 49,90 o kit" }
 ] },
-  { n: "Paulo", d: [] },
+  { n: "Paulo", d: [
+    { t: "Cueca boxer Basic+ sem costura (Americanas)", u: "https://www.americanas.com.br/cueca-boxer-preto-gg-poliamida-com-solapa-7495173356/p", o: "Cor preta · tamanho GG" }
+  ] },
   { n: "Maicon", d: [
   { t: "Relógio digital esportivo à prova d'água C-Shock (Mercado Livre)", u: "https://meli.la/1Nsho9w", o: "Correia vermelha" }
 ] },
